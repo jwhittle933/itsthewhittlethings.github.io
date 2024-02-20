@@ -1,5 +1,5 @@
 serve:
-		bundle exec jekyll serve --baseurl=""
+		cobalt serve --drafts
 
 build:
-		bundle exec jekyll build -d docs
+		cobalt build -d docs
